@@ -31,7 +31,7 @@ export default function About({ resetData, exportData, importData }) {
 							<Alert.Heading className="text-center">About</Alert.Heading>
 							<hr />
 							<h4 className="text-center">
-								450 DSA Cracker helps you build your confidence in solving any coding <br /> related question and helps you
+								This 450 DSA helps you build your confidence in solving any coding <br /> related question and helps you
 								prepare for your placements{" "}
 								<span role="img" aria-label="student">
 									👨🏻‍🎓
@@ -48,7 +48,7 @@ export default function About({ resetData, exportData, importData }) {
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									DSA Cracker Sheet
+									450 DSA Sheet
 								</a>
 							</i>{" "}
 							by{" "}
@@ -63,8 +63,8 @@ export default function About({ resetData, exportData, importData }) {
 						</h2>
 						<h4 className="text-center my-5">
 							Project by{" "}
-							<a href="https://www.linkedin.com/in/asishraju/" target="_blank" rel="noopener noreferrer">
-								Asish
+							<a href="https://www.linkedin.com/in/mishra07adi/" target="_blank" rel="noopener noreferrer">
+								Aditya
 							</a>{" "}
 							<span role="img" aria-label="code-men">
 								👨🏻‍💻
