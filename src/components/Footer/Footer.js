@@ -3,7 +3,7 @@ import Badge from "react-bootstrap/Badge";
 import { Link } from "react-router-dom";
 import "./footer.css";
 export default function Footer({ dark, setDark }) {
-	return (
+  return (
     <div>
       <footer
         className="footer"
@@ -29,7 +29,7 @@ export default function Footer({ dark, setDark }) {
             >
               <h4>
                 <Badge pill variant="light" className="hvr-grow">
-                  <span role="img" aria-label="star" className="emojiFix">
+                  <span role="img" aria-label="book" className="emojiFix">
                     📚
                   </span>{" "}
                   My Resume
@@ -37,6 +37,49 @@ export default function Footer({ dark, setDark }) {
               </h4>
             </a>
           </div>
+
+          <div className="p-2 bd-highlight">
+            <a href="https://www.linkedin.com/in/mishra07adi/" target="_blank">
+              <h4>
+                <Badge pill variant="light" className="hvr-grow">
+                  <span role="img" aria-label="book" className="emojiFix">
+                    😎
+                  </span>{" "}
+                  Linked In
+                </Badge>
+              </h4>
+            </a>
+          </div>
+
+          <div className="p-2 bd-highlight">
+            <a href="https://www.instagram.com/mishra07adi/" target="_blank">
+              <h4>
+                <Badge pill variant="light" className="hvr-grow">
+                  <span role="img" aria-label="face" className="emojiFix">
+                    😍
+                  </span>{" "}
+                  Instagram
+                </Badge>
+              </h4>
+            </a>
+          </div>
+
+          <div className="p-2 bd-highlight">
+            <a
+              href="https://wa.me/+919709176622/?text=Hello Developer, "
+              target="_blank"
+            >
+              <h4>
+                <Badge pill variant="light" className="hvr-grow">
+                  <span role="img" aria-label="face" className="emojiFix">
+                    👦
+                  </span>{" "}
+                  WhatsApp
+                </Badge>
+              </h4>
+            </a>
+          </div>
+
           <div className="ml-auto p-2 bd-highlight footer-toggle">
             <h4>
               {/* toggle dark mode */}
